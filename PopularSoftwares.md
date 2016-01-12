@@ -1,55 +1,75 @@
 #常用软件列表
 
-## bcloud: 
-[百度网盘的linux桌面客户端](https://github.com/LiuLang/bcloud)  
-[bcloud 的安装包](https://github.com/LiuLang/bcloud-packages)
+#网络应用
 
-## kwplayer:
-[酷我音乐盒的linux客户端](https://github.com/LiuLang/kwplayer)  
-[kwplayer的安装包](https://github.com/LiuLang/kwplayer-packages)
+## 网络浏览器
 
+## 邮件客户端
 
-**如果是archlinux的话,官方仓库就有,直接安装就可以了!** 另外,可参考[Arch bcloud](https://www.archlinux.org/packages/community/any/bcloud/) [Arch kwplayer](https://aur.archlinux.org/packages/kwplayer/) !
+## 即时聊天工具
 
-    pacman -Ss bcloud
-    community/bcloud 3.8.1-2 [installed]
-        Baidu Pan client for Linux Desktop users
-    yaourt -Ss kwplayer
-    aur/kwplayer 3.5.2-1 [installed] (5)
-        An elegant music player which can get songs from kuwo.cn
+## 文件传输工具
 
-## gnome-2048:
-gnome 2048 小游戏
+## 云存储
 
-## fcitx + sunpinyin, googlepinyin, sogoupinyin :
-输入法
+## 视频软件
 
-## google keep :
-记事和清单
+# 图像影音
 
-## google chrome(chromium) :
-Google Chrome 网页浏览器
+## 音乐播放
 
-## filezilla :
-FTP client
+## 视频播放
 
-## skype :
-最清晰的免费网络电话
+## 图像浏览
 
-## Sublime text 2/3 : 
-text editor
+# 游戏娱乐
 
-## Terminator:
-Terminal Emulator
+## 游戏平台
 
-## Thunderbird(icedove for Debian):
-邮件客户端
+# 文件管理
 
-## Transmission :
-A Fast, Easy, and Free BitTorrent Client
+## 文件管理
 
-## Tweak Tool :
-tool to adjust advanced configuration settings for GNOME
+## 压缩打包
 
-## WizNote :
-为知笔记  [linux版源代码](https://github.com/WizTeam/WizQTClient)
+# 办公应用
+
+## 输入法
+
+## 文档阅读
+
+## 办公套件
+
+## 笔记记事
+
+# 教育科学
+
+## 教育软件
+
+## 科学软件
+
+# 虚拟化
+
+## 虚拟机
+
+# 监视和控制
+
+## 硬件查询
+
+## 系统监视
+
+## 系统安全
+
+## 远程控制
+
+# 系统工具
+
+## Shell
+
+# 程序开发
+
+## 版本控制
+
+## 本文编辑器
+
+## 集成开发环境
