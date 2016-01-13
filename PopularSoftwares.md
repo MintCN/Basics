@@ -81,11 +81,17 @@
 
 **安装方法** :
 
+	# Add source in /etc/apt/sources.list
 	sudo add-apt-repository 'deb https://deb.opera.com/opera-stable/ stable non-free'
     wget -qO- https://deb.opera.com/archive.key | sudo apt-key add -
     sudo apt-get update
 	sudo apt-get install opera-stable
 
+	# Add source in /etc/apt/sources.list.d/opera.list
+    sudo sh -c 'echo "deb https://deb.opera.com/opera-stable/ stable non-free" >> /etc/apt/sources.list.d/opera.list'
+    wget -qO- https://deb.opera.com/archive.key | sudo apt-key add -
+    sudo apt-get update
+	sudo apt-get install opera-stable
 
 ## 邮件客户端
 
