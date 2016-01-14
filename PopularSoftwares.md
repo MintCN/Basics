@@ -53,6 +53,26 @@
     sudo add-apt-repository -r ppa:ubuntu-mozilla-daily/ppa
     sudo apt-get update
 
+**备注**：
+
+如果你是Debian或Kali，你的系统自带的浏览器不是Firefox，而是Iceweasel。
+
+### Iceweasel
+
+**介绍**：Iceweasel是一个网络浏览器，是Mozilla Firefox浏览器的Debian再发布版。
+
+**下载位置** :
+
+[Download](https://packages.debian.org/sid/iceweasel)
+
+**安装方法** :
+
+    sudo apt-get install iceweasel
+
+**卸载方法**：
+
+    sudo apt-get purge iceweasel
+
 ### Chromium
 
 **介绍**：Chrome浏览器的开源版本
@@ -140,6 +160,7 @@
 **介绍** : 专注于电子邮件管理的强大邮件客户端
 
 **下载位置** :
+
 [Download](https://www.mozilla.org/zh-CN/thunderbird/)
 
 **安装方法** :
@@ -160,6 +181,25 @@
     # 2. Thunderbird PPA
     sudo add-apt-repository -r ppa:ubuntu-mozilla-daily/ppa
     sudo apt-get update
+
+**备注**：
+如果你是Debian或Kali，你的系统默认的邮件客户端不是Thunderbird，而是Icedove。
+
+### Icedove
+
+**介绍**：Icedove是一个邮件客户端，是Mozilla Thunderbird客户端的Debian再发布版。
+
+**下载位置** :
+
+[Download](https://packages.debian.org/sid/icedove)
+
+**安装方法** :
+
+    sudo apt-get install icedove
+
+**卸载方法**：
+
+    sudo apt-get purge icedove
 
 ### Evolution
 
