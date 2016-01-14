@@ -287,6 +287,54 @@ A Fast, Easy, and Free BitTorrent Client
 
 ## 视频播放
 
+### SMPlayer
+
+**介绍**：一个基于mplayer2的视频播放器，可能是Linux下最方便的视频播放器。
+
+**下载位置** :
+
+[Download](http://smplayer.sourceforge.net/)
+
+**安装方法** :
+
+	sudo apt-get install smplayer
+
+**卸载方法**：
+
+    sudo apt-get purge smplayer
+
+### VLC
+
+**介绍**：全平台的自由多媒体解决方案。
+
+**下载位置** :
+
+[Download](http://www.videolan.org/)
+
+**安装方法** :
+
+	sudo apt-get install vlc
+
+**卸载方法**：
+
+    sudo apt-get purge vlc
+
+### mpv
+
+**介绍**：专注与视频播放质量和体验。GUI设置？我们不需要，配置文件更高效。
+
+**下载位置** :
+
+[Download](https://mpv.io/installation/)
+
+### KODI(原XBMC)
+
+**介绍**：全平台的媒体库解决方案，插件是它的最大特点。
+
+**下载位置** :
+
+[Download](http://kodi.tv/download/)
+
 ## 图像浏览
 
 # 游戏娱乐
