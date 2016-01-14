@@ -235,9 +235,34 @@
 
 ## 即时聊天
 
+### Skype
+
+最清晰的免费网络电话
+
 ## 文件传输
 
+### Filezilla
+
+FTP client
+
+### Transmission
+
+A Fast, Easy, and Free BitTorrent Client
+
 ## 云存储
+
+### bcloud
+
+百度网盘的linux桌面客户端 [bcloud源码](https://github.com/LiuLang/bcloud) [bcloud安装包](https://github.com/LiuLang/bcloud-packages)
+
+**备注**：
+
+**如果是archlinux的话,官方仓库就有,直接安装就可以了!** 
+另外,可参考[Arch bcloud](https://www.archlinux.org/packages/community/any/bcloud/)
+
+    pacman -Ss bcloud
+    community/bcloud 3.8.1-2
+        Baidu Pan client for Linux Desktop users
 
 ##网络支付
 
@@ -247,6 +272,19 @@
 
 ## 音乐播放
 
+### kwplayer
+
+酷我音乐盒的linux客户端 [kwplayer源码](https://github.com/LiuLang/kwplayer) [kwplayer安装包](https://github.com/LiuLang/kwplayer-packages)
+
+**备注**：
+
+**如果是archlinux的话,官方仓库就有,直接安装就可以了!**
+另外,可参考[Arch kwplayer](https://aur.archlinux.org/packages/kwplayer/)
+    
+    yaourt -Ss kwplayer
+    aur/kwplayer 3.5.2-1
+        An elegant music player which can get songs from kuwo.cn
+
 ## 视频播放
 
 ## 图像浏览
@@ -254,6 +292,12 @@
 # 游戏娱乐
 
 ## 游戏平台
+
+## 小游戏
+
+### gnome-2048
+
+gnome 2048 小游戏
 
 # 文件管理
 
@@ -265,11 +309,20 @@
 
 ## 输入法
 
+### fcitx + (sunpinyin, googlepinyin, sogoupinyin)
+
 ## 文档阅读
 
 ## 办公套件
 
 ## 笔记记事
+
+### Google Keep
+记事和清单
+
+### WizNote
+
+为知笔记 [linux版源代码](https://github.com/WizTeam/WizQTClient)
 
 # 教育科学
 
@@ -293,12 +346,24 @@
 
 # 系统工具
 
+## 终端模拟器
+
+### Terminator
+
 ## Shell
+
+# 系统管理
+
+## 配置工具
+
+### Tweak Tool
 
 # 程序开发
 
 ## 版本控制
 
 ## 本文编辑器
+
+### Sublime Text
 
 ## 集成开发环境
