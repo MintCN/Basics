@@ -12,12 +12,17 @@
 
 [Download](http://www.google.cn/intl/zh-CN/chrome/browser/)
 
-**安装方法** :
+**安装方法**：
 
     wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
     sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
     sudo apt-get update
     sudo apt-get install google-chrome-stable
+
+**卸载方法**：
+
+    sudo apt-get purge google-chrome-stable
+    sudo rm -rf /etc/apt/sources.list.d/google.list'
 
 ### Firefox
 
@@ -31,13 +36,22 @@
 
 **安装方法** :
 
-    # Firefox
+    # 1. Firefox
     sudo apt-get install firefox firefox-locale-zh-hans
 
-    # Firefox PPA
+    # 2. Firefox PPA
     sudo add-apt-repository ppa:ubuntu-mozilla-daily/ppa
     sudo apt-get update
     sudo apt-get install firefox-trunk
+
+**卸载方法**：
+
+    # 1. Firefox
+    sudo apt-get purge firefox firefox-locale-zh-hans
+
+    # 2. Firefox PPA
+    sudo add-apt-repository -r ppa:ubuntu-mozilla-daily/ppa
+    sudo apt-get update
 
 ### Chromium
 
@@ -51,13 +65,22 @@
 
 **安装方法** :
 
-    # Chromium
+    # 1. Chromium
     sudo apt-get install chromium
 
-    # Chromium PPA
+    # 2. Chromium PPA
     sudo add-apt-repository  ppa:chromium-daily/stable  #
     sudo apt-get update
     sudo apt-get install chromium-browser
+
+**卸载方法**：
+
+    # 1. Chromium
+    sudo apt-get purge chromium
+
+    # 2. Chromium PPA
+    sudo add-apt-repository -r ppa:chromium-daily/stable  #
+    sudo apt-get update
 
 ### Maxthon
 
@@ -71,6 +94,10 @@
 
     sudo gdebi maxthon-browser-stable_1.0.5.3_amd64.deb
 
+**卸载方法**：
+
+    sudo dpkg -r maxthon-browser-stable
+
 ### Opera
 
 **介绍** : 来自挪威的浏览器
@@ -81,19 +108,90 @@
 
 **安装方法** :
 
-	# Add source in /etc/apt/sources.list
+	# 1. Add source in /etc/apt/sources.list
 	sudo add-apt-repository 'deb https://deb.opera.com/opera-stable/ stable non-free'
     wget -qO- https://deb.opera.com/archive.key | sudo apt-key add -
     sudo apt-get update
 	sudo apt-get install opera-stable
 
-	# Add source in /etc/apt/sources.list.d/opera.list
+	# 2. Add source in /etc/apt/sources.list.d/opera.list
     sudo sh -c 'echo "deb https://deb.opera.com/opera-stable/ stable non-free" >> /etc/apt/sources.list.d/opera.list'
     wget -qO- https://deb.opera.com/archive.key | sudo apt-key add -
     sudo apt-get update
 	sudo apt-get install opera-stable
 
+**卸载方法**：
+
+    # 1. Add source in /etc/apt/sources.list
+	sudo apt-get purge opera-stable
+	sudo add-apt-repository -r 'deb https://deb.opera.com/opera-stable/ stable non-free'
+    sudo apt-get update
+
+
+	# 2. Add source in /etc/apt/sources.list.d/opera.list
+	sudo apt-get purge opera-stable
+    sudo rm -rf /etc/apt/sources.list.d/opera.list
+    sudo apt-get update
+
 ## 邮件客户端
+
+### Thunderbird
+
+**介绍** : 专注于电子邮件管理的强大邮件客户端
+
+**下载位置** :
+[Download](https://www.mozilla.org/zh-CN/thunderbird/)
+
+**安装方法** :
+
+    # 1. Thunderbird
+    sudo apt-get install thunderbird
+
+    # 2. Thunderbird PPA
+    sudo add-apt-repository ppa:ubuntu-mozilla-daily/ppa
+    sudo apt-get update
+    sudo apt-get install thunderbird-trunk
+
+**卸载方法**：
+
+    # 1. Thunderbird
+    sudo apt-get purge thunderbird
+
+    # 2. Thunderbird PPA
+    sudo add-apt-repository -r ppa:ubuntu-mozilla-daily/ppa
+    sudo apt-get update
+
+### Evolution
+
+**介绍** : 提供邮件收发、日历和通讯录的个人信息解决方案
+
+**下载位置** :
+
+[Download](https://wiki.gnome.org/Apps/Evolution)
+
+**安装方法** :
+
+    sudo apt-get install evolution
+
+**卸载方法**：
+
+    sudo apt-get purge evolution
+
+### Mutt
+
+**介绍** : 类Unix系统下基于文本的邮件客户端
+
+**下载位置** :
+
+[Download](http://www.mutt.org/)
+
+**安装方法** :
+
+    sudo apt-get install mutt
+
+**卸载方法**：
+
+    sudo apt-get install mutt
 
 ## 即时聊天
 
