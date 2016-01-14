@@ -285,6 +285,11 @@ A Fast, Easy, and Free BitTorrent Client
     aur/kwplayer 3.5.2-1
         An elegant music player which can get songs from kuwo.cn
 
+### FeelUOwn
+
+网易云音乐的linux客户端 [FeelUOwn源码](https://github.com/cosven/FeelUOwn)  
+
+
 ## 视频播放
 
 ### SMPlayer
