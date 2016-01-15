@@ -249,6 +249,10 @@ FTP client
 
 A Fast, Easy, and Free BitTorrent Client
 
+### Deluge
+
+A Fast, Easy, and Free BitTorrent Client
+
 ## 云存储
 
 ### bcloud
@@ -289,7 +293,6 @@ A Fast, Easy, and Free BitTorrent Client
 
 网易云音乐的linux客户端 [FeelUOwn源码](https://github.com/cosven/FeelUOwn)  
 
-
 ## 视频播放
 
 ### SMPlayer
@@ -302,7 +305,7 @@ A Fast, Easy, and Free BitTorrent Client
 
 **安装方法** :
 
-	sudo apt-get install smplayer
+    sudo apt-get install smplayer
 
 **卸载方法**：
 
@@ -312,13 +315,13 @@ A Fast, Easy, and Free BitTorrent Client
 
 **介绍**：全平台的自由多媒体解决方案。
 
-**下载位置** :
+**官方网站** :
 
-[Download](http://www.videolan.org/)
+[Official website](http://www.videolan.org/)
 
 **安装方法** :
 
-	sudo apt-get install vlc
+    sudo apt-get install vlc
 
 **卸载方法**：
 
@@ -326,19 +329,33 @@ A Fast, Easy, and Free BitTorrent Client
 
 ### mpv
 
-**介绍**：专注与视频播放质量和体验。GUI设置？我们不需要，配置文件更高效。
+**介绍**：专注与视频播放质量和体验。GUI？我们不需要，配置文件更高效。
 
-**下载位置** :
+**官方网站** :
 
-[Download](https://mpv.io/installation/)
+[Official website](https://mpv.io/)
 
 ### KODI(原XBMC)
 
-**介绍**：全平台的媒体库解决方案，插件是它的最大特点。
+**介绍**：全平台的媒体库解决方案，插件丰富是它的最大特点。
 
 **下载位置** :
 
-[Download](http://kodi.tv/download/)
+[Download](http://kodi.tv/download/)  
+
+**安装方法** :
+
+    sudo apt-get install software-properties-common
+    sudo add-apt-repository ppa:team-xbmc/ppa
+    sudo apt-get update
+    sudo apt-get install kodi
+
+**卸载方法**：
+
+    sudo apt-get purge kodi
+    
+**中文插件**：
+    [xbmc-addons-chinese](https://github.com/taxigps/xbmc-addons-chinese)
 
 ## 图像浏览
 
