@@ -334,6 +334,15 @@ A Fast, Easy, and Free BitTorrent Client
 **官方网站** :
 
 [Official website](https://mpv.io/)
+[GitHub](https://github.com/mpv-player/mpv)
+
+**安装方法** :
+
+    sudo apt-get install mpv
+
+**卸载方法**：
+
+    sudo apt-get purge mpv
 
 ### KODI(原XBMC)
 
