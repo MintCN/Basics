@@ -235,9 +235,111 @@
 
 ## 即时聊天
 
+###QQ
+
+**介绍** :支持在线聊天、视频电话、点对点断点续传文件的强大聊天软件。
+
+**安装方法**:
+
+	暂缺。。。
+
 ### Skype
 
-最清晰的免费网络电话
+**介绍** :最清晰的免费网络电话，提供文字、声音和视频聊天。
+
+**下载位置** : 
+
+[Download CN](http://skype.gmw.cn/)  
+[Download EN](http://www.skype.com/)  
+[Download DEB](http://archive.canonical.com/pool/partner/s/skype/)
+
+**安装方法** :
+
+    # Ubuntu，LinuxMint
+    sudo apt-get install skype
+
+	# Debian : downloading from Download DEB,save it as skype.deb
+    sudo gdebi skype.deb
+
+**卸载方法** :
+
+    # Ubuntu,LinuxMint
+    sudo apt-get purge skype
+
+    # Debian
+    sudo dpkg -r skype
+
+**备注** :
+skype来自于 Ubuntu partner库。  
+对于Ubuntu，这个库是默认安装的，所以可以直接install和purge的;  
+对于LinuxMint，默认使用Ubuntu partner库，所以也是可以直接install和purge的;  
+对于Debian来说，最简单的安装方法就是使用下载的deb包。关于复杂的安装方法，我会在后面进行介绍。
+
+### Empathy
+
+**介绍** :支持多协议的强大聊天软件。
+
+**下载位置** : 
+
+[Download](https://wiki.gnome.org/action/show/Apps/Empathy?action=show&redirect=Empathy)
+
+[Github Empathy](https://github.com/GNOME/empathy)
+
+**安装方法** :
+
+    sudo apt-get install empathy
+
+**卸载方法** :
+
+    sudo apt-get purge empathy
+
+### Pidgin
+
+**介绍** :跨平台、支持多种协议的聊天软件。
+
+**下载位置** : 
+
+[Download](https://pidgin.im/download/linux/)
+
+**安装方法** :
+
+    sudo apt-get install pidgin
+
+**卸载方法** :
+
+    sudo apt-get purge pidgin
+
+### XChat
+
+**介绍** :跨平台的IRC聊天软件。
+
+**下载位置** : 
+
+[Download](http://xchat.org/download/)
+
+**安装方法** :
+
+	sudo apt-get install xchat
+
+**卸载方法** :
+
+	sudo apt-get purge xchat
+
+### 阿里旺旺
+
+**介绍** :原为阿里内部使用的聊天软件。网盘在外国，访问速度非常慢
+
+**下载位置** : 
+
+[Download](http://ge.tt/8sPpGIA)
+
+**安装方法** :
+
+    sudo gdebi aliwangwang_1.00-00_amd64.deb
+
+**卸载方法** :
+
+    sudo dpkg -r aliwangwang
 
 ## 文件传输
 
