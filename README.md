@@ -3,7 +3,7 @@
 
 TODO List
 
-|内容|负责人|
-|常用软件列表|[@mudongliang](https://github.com/mudongliang), [@SandyBM](https://github.com/SandyBM)|
-|Windows与linux对应软件列表|[@mudongliang](https://github.com/mudongliang), [@Anniywell](https://github.com/Anniywell)|
-|LinuxMint镜像简介|[@mudongliang](https://github.com/mudongliang), [@hxhc](https://github.com/hxhc)|
+|内容||负责人|
+|常用软件列表||[@mudongliang](https://github.com/mudongliang), [@SandyBM](https://github.com/SandyBM)|
+|Windows与linux对应软件列表||[@mudongliang](https://github.com/mudongliang), [@Anniywell](https://github.com/Anniywell)|
+|LinuxMint镜像简介||[@mudongliang](https://github.com/mudongliang), [@hxhc](https://github.com/hxhc)|
