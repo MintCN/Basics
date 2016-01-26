@@ -611,7 +611,56 @@ gnome 2048 小游戏
 
 ## 终端模拟器
 
+linux 的终端就是控制台，是用户与内核交互的平台，通过输入指令来控制内核完成任务操作。
+
+### Gnome Terminal
+ 
+**介绍**：Gnome Terminal 是 Gnome 桌面环境中的终端模拟软件。
+
+**官方网站**：
+
+[Official Website](https://help.gnome.org/users/gnome-terminal/stable/index.html.en)
+[GitHub](https://github.com/GNOME/gnome-terminal)
+
+**安装方法**：
+
+    sudo apt-get install gnome-terminal
+
+**卸载方法**：
+
+    sudo apt-get purge gnome-terminal
+
 ### Terminator
+
+**介绍**：Terminator 是一个程序，它可让用户自由地排布多个 GNOME 终端，而不用通过窗口管理器来实现，比较适合需要同时打开多个终端的用户。
+
+**官方网站**：
+
+[Official Website](http://gnometerminator.blogspot.com/p/introduction.html)
+
+**安装方法**：
+
+    sudo apt-get install terminator
+
+**卸载方法**：
+
+    sudo apt-get purge terminator
+
+### tmux
+
+**介绍**：GNU screen 类似的程序，可作为后者的替代品使用。
+
+**官方网站**：
+
+[Official Website](http://sourceforge.net/projects/tmux/)
+
+**安装方法**：
+
+    sudo apt-get install tmux
+
+**卸载方法**：
+
+    sudo apt-get purge tmux
 
 ## Shell
 
