@@ -89,7 +89,7 @@
     sudo apt-get install chromium
 
     # 2. Chromium PPA
-    sudo add-apt-repository  ppa:chromium-daily/stable  #
+    sudo add-apt-repository  ppa:chromium-daily/stable
     sudo apt-get update
     sudo apt-get install chromium-browser
 
@@ -99,7 +99,7 @@
     sudo apt-get purge chromium
 
     # 2. Chromium PPA
-    sudo add-apt-repository -r ppa:chromium-daily/stable  #
+    sudo add-apt-repository -r ppa:chromium-daily/stable
     sudo apt-get update
 
 ### Maxthon
@@ -453,13 +453,91 @@ skype来自于 Ubuntu partner库。
 
 ## 云存储
 
+### 快盘
+
+**介绍**：金山快盘 Linux 客户端，能够在您的 Linux 电脑和金山云之间进行安全、快速的文件同步
+
+**下载位置**：
+
+[快盘主页](http://www.ubuntukylin.com/applications/showimg.php?lang=cn&id=21)
+[安装包位置](http://archive.ubuntukylin.com:10006/ubuntukylin/pool/main/k/kuaipan4uk/)
+
+**安装方法**：
+
+    # 1. deb包
+    sudo gdebi kuaipan4uk_2.0.0.3_amd64.deb
+
+    # 2. 添加 UbuntuKylin 软件源
+    按照[添加 UbuntuKylin 源的文档](https://github.com/MintCN/Basics/blob/master/AddUbuntukylinMirror.md)中的方法，添加软件源；
+    
+    sudo apt-get update
+    sudo apt-get install kuaipan4uk
+
+**卸载方法**：
+
+    sudo apt-get purge kuaipan4uk
+
+备注：
+    Ubuntukylin网站中列出的[软件](www.ubuntukylin.com/applications/)，比如我们经常使用的搜狗输入法，迅雷快盘，在建立软件源的时候都会在 `/etc/apt/sources.list.d` 生成一个自己的list文件，比如说，搜狗输入法创建的文件名字叫做 `sogoupinyin.list`，而快盘创建的文件名字叫做 `kuaipan.list` ，但是内容都是一致的。
+    
+    $ cat kuaipan.list
+    deb http://archive.ubuntukylin.com:10006/ubuntukylin trusty main
+    $ cat sogoupinyin.list
+    deb http://archive.ubuntukylin.com:10006/ubuntukylin trusty main
+    
+但是这种情况会出现一个问题，因为两个不同的文件有着相同的软件源，在软件更新的时候，会有警告：
+    
+    sudo apt-get udpate
+    
+    W: Duplicate sources.list entry http://archive.ubuntukylin.com:10006/ubuntukylin/ trusty/main amd64 Packages (/var/lib/apt/lists/archive.ubuntukylin.com:10006_ubuntukylin_dists_trusty_main_binary-amd64_Packages)
+    W: Duplicate sources.list entry http://archive.ubuntukylin.com:10006/ubuntukylin/ trusty/main i386 Packages (/var/lib/apt/lists/archive.ubuntukylin.com:10006_ubuntukylin_dists_trusty_main_binary-i386_Packages)
+    W: You may want to run apt-get update to correct these problems
+
 ### bcloud
 
-百度网盘的linux桌面客户端  
+**介绍**：百度网盘的linux桌面客户端
+
+**下载位置**：
+
 [bcloud源码](https://github.com/LiuLang/bcloud)  
 [bcloud安装包](https://github.com/LiuLang/bcloud-packages)
 
+**安装方法**：
+
+    git clone https://github.com/LiuLang/bcloud-packages
+    cd bcloud-packages/
+    sudo gdebi bcloud_3.8.2-1_all.deb
+    cd ..
+    rm -rf bcloud-packages
+    
+**卸载方法**：
+
+    sudo dpkg -r bcloud
+
 ##网络支付
+
+### 支付宝
+
+**介绍**：全球领先的独立第三方支付平台
+
+**下载位置**：
+
+- 首先进入[支付宝](https://www.alipay.com/)首页；
+- 点击登录按钮之后，下载支付宝控件；
+
+**安装方法**：
+
+    $ tar -xvf aliedit.tar.gz
+    aliedit.sh
+
+    $ ./aliedit.sh
+    Restart   firefox   to complete your changes
+    Successfully installed Alipay Security Control
+    Press any key to quit...
+
+**卸载方法**：
+
+    无
 
 ## 视频软件
 
@@ -469,9 +547,24 @@ skype来自于 Ubuntu partner库。
 
 ### kwplayer
 
-酷我音乐盒的linux客户端  
+**介绍**：酷我音乐盒的linux客户端
+
+**下载位置**：
+
 [kwplayer源码](https://github.com/LiuLang/kwplayer)  
 [kwplayer安装包](https://github.com/LiuLang/kwplayer-packages)
+
+**安装方法**：
+
+    git clone https://github.com/LiuLang/kwplayer-packages
+    cd kwplayer-packages/
+    sudo gdebi kwplayer_3.8.2-1_all.deb
+    cd ..
+    rm -rf kwplayer-packages
+
+**卸载方法**：
+
+    sudo dpkg -r kwplayer
 
 ### FeelUOwn
 
