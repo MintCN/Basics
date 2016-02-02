@@ -459,7 +459,7 @@ skype来自于 Ubuntu partner库。
 
 **下载位置**：
 
-[快盘主页](http://www.ubuntukylin.com/applications/showimg.php?lang=cn&id=21)
+[快盘主页](http://www.ubuntukylin.com/applications/showimg.php?lang=cn&id=21)  
 [安装包位置](http://archive.ubuntukylin.com:10006/ubuntukylin/pool/main/k/kuaipan4uk/)
 
 **安装方法**：
@@ -468,7 +468,8 @@ skype来自于 Ubuntu partner库。
     sudo gdebi kuaipan4uk_2.0.0.3_amd64.deb
 
     # 2. 添加 UbuntuKylin 软件源
-    按照[添加 UbuntuKylin 源的文档](https://github.com/MintCN/Basics/blob/master/AddUbuntukylinMirror.md)中的方法，添加软件源；
+    
+按照[添加 UbuntuKylin 源的文档](https://github.com/MintCN/Basics/blob/master/AddUbuntukylinMirror.md)中的方法，添加软件源；
     
     sudo apt-get update
     sudo apt-get install kuaipan4uk
@@ -477,7 +478,7 @@ skype来自于 Ubuntu partner库。
 
     sudo apt-get purge kuaipan4uk
 
-备注：
+**备注**：
     Ubuntukylin网站中列出的[软件](www.ubuntukylin.com/applications/)，比如我们经常使用的搜狗输入法，迅雷快盘，在建立软件源的时候都会在 `/etc/apt/sources.list.d` 生成一个自己的list文件，比如说，搜狗输入法创建的文件名字叫做 `sogoupinyin.list`，而快盘创建的文件名字叫做 `kuaipan.list` ，但是内容都是一致的。
     
     $ cat kuaipan.list
