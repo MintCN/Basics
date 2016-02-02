@@ -59,7 +59,7 @@
 
 ### Iceweasel
 
-**介绍**：Iceweasel是一个网络浏览器，是Mozilla Firefox浏览器的Debian再发布版。
+**介绍**：Iceweasel是一个网络浏览器，是Mozilla Firefox浏览器的Debian再发布版
 
 **下载位置**：
 
@@ -187,7 +187,7 @@
 
 ### Icedove
 
-**介绍**：Icedove是一个邮件客户端，是Mozilla Thunderbird客户端的Debian再发布版。
+**介绍**：Icedove是一个邮件客户端，是Mozilla Thunderbird客户端的Debian再发布版
 
 **下载位置**：
 
@@ -237,7 +237,7 @@
 
 ###QQ
 
-**介绍**：支持在线聊天、视频电话、点对点断点续传文件的强大聊天软件。
+**介绍**：支持在线聊天、视频电话、点对点断点续传文件的强大聊天软件
 
 **安装方法**:
 
@@ -245,7 +245,7 @@
 
 ### Skype
 
-**介绍**：最清晰的免费网络电话，提供文字、声音和视频聊天。
+**介绍**：最清晰的免费网络电话，提供文字、声音和视频聊天
 
 **下载位置**：
 
@@ -277,7 +277,7 @@ skype来自于 Ubuntu partner库。
 
 ### Empathy
 
-**介绍**：支持多协议的强大聊天软件。
+**介绍**：支持多协议的强大聊天软件
 
 **下载位置**：
 
@@ -295,7 +295,7 @@ skype来自于 Ubuntu partner库。
 
 ### Pidgin
 
-**介绍**：跨平台、支持多种协议的聊天软件。
+**介绍**：跨平台、支持多种协议的聊天软件
 
 **下载位置**：
 
@@ -311,7 +311,7 @@ skype来自于 Ubuntu partner库。
 
 ### XChat
 
-**介绍** :跨平台的IRC聊天软件。
+**介绍** :跨平台的IRC聊天软件
 
 **下载位置** : 
 
@@ -327,7 +327,7 @@ skype来自于 Ubuntu partner库。
 
 ### 阿里旺旺
 
-**介绍**：原为阿里内部使用的聊天软件。网盘在外国，访问速度非常慢
+**介绍**：原为阿里内部使用的聊天软件，网盘在外国，访问速度非常慢
 
 **下载位置**：
 
@@ -357,7 +357,7 @@ skype来自于 Ubuntu partner库。
 
 ### FlareGet
 
-**介绍**：支持多协议，多线程的下载软件。
+**介绍**：支持多协议，多线程的下载软件
 
 **下载位置**：
 
@@ -540,8 +540,6 @@ skype来自于 Ubuntu partner库。
 
     无
 
-## 视频软件
-
 # 图像影音
 
 ## 音乐播放
@@ -569,13 +567,62 @@ skype来自于 Ubuntu partner库。
 
 ### FeelUOwn
 
-网易云音乐的linux客户端 [FeelUOwn源码](https://github.com/cosven/FeelUOwn)  
+**介绍**：网易云音乐的linux客户端
+
+**下载位置**：
+
+[FeelUOwn源码](https://github.com/cosven/FeelUOwn)
+
+**安装方法**：
+
+    git clone https://github.com/cosven/FeelUOwn.git
+    cd FeelUOwn
+    ./install.sh
+
+**卸载方法**：
+
+    # 删除下载的源码即可
+    rm -rf FeelUOwn
+
+### Banshee
+
+**介绍**：高度自定义的音乐播放器
+
+**下载位置**：
+
+[官方网站](http://banshee.fm/)
+
+[安装包下载](http://banshee.fm/download/)
+
+**安装方法**：
+
+    sudo apt-get install banshee
+
+**卸载方法**：
+
+    sudo apt-get purge banshee
+
+### Rhythmbox
+
+**介绍**：Gnome桌面中默认带的音乐播放器，提供音乐管理与播放的强大播放器
+
+**下载位置**：
+
+[官方网站](https://wiki.gnome.org/Apps/Rhythmbox)
+
+**安装方法**：
+
+    sudo apt-get install rhythmbox
+
+**卸载方法**：
+
+    sudo apt-get purge rhythmbox
 
 ## 视频播放
 
 ### SMPlayer
 
-**介绍**：一个基于mplayer2的视频播放器，可能是Linux下最方便的视频播放器。
+**介绍**：一个基于mplayer2的视频播放器，可能是Linux下最方便的视频播放器
 
 **下载位置**：
 
@@ -591,7 +638,7 @@ skype来自于 Ubuntu partner库。
 
 ### VLC
 
-**介绍**：全平台的自由多媒体解决方案。
+**介绍**：全平台的自由多媒体解决方案
 
 **官方网站**：
 
@@ -624,7 +671,7 @@ skype来自于 Ubuntu partner库。
 
 ### KODI(原XBMC)
 
-**介绍**：全平台的媒体库解决方案，插件丰富是它的最大特点。
+**介绍**：全平台的媒体库解决方案，插件丰富是它的最大特点
 
 **下载位置**：
 
@@ -705,11 +752,11 @@ gnome 2048 小游戏
 
 ## 终端模拟器
 
-linux 的终端就是控制台，是用户与内核交互的平台，通过输入指令来控制内核完成任务操作。
+linux 的终端就是控制台，是用户与内核交互的平台，通过输入指令来控制内核完成任务操作
 
 ### Gnome Terminal
  
-**介绍**：Gnome Terminal 是 Gnome 桌面环境中的终端模拟软件。
+**介绍**：Gnome Terminal 是 Gnome 桌面环境中的终端模拟软件
 
 **官方网站**：
 
@@ -726,7 +773,7 @@ linux 的终端就是控制台，是用户与内核交互的平台，通过输�
 
 ### Terminator
 
-**介绍**：Terminator 是一个程序，它可让用户自由地排布多个 GNOME 终端，而不用通过窗口管理器来实现，比较适合需要同时打开多个终端的用户。
+**介绍**：Terminator 是一个程序，它可让用户自由地排布多个 GNOME 终端，而不用通过窗口管理器来实现，比较适合需要同时打开多个终端的用户
 
 **官方网站**：
 
@@ -742,7 +789,7 @@ linux 的终端就是控制台，是用户与内核交互的平台，通过输�
 
 ### tmux
 
-**介绍**：GNU screen 类似的程序，可作为后者的替代品使用。
+**介绍**：GNU screen 类似的程序，可作为 screen 的替代品使用
 
 **官方网站**：
 
