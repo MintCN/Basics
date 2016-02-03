@@ -8,3 +8,15 @@
 |常用软件列表|[@mudongliang](https://github.com/mudongliang), [@SandyBM](https://github.com/SandyBM)|
 |LinuxMint镜像简介|[@mudongliang](https://github.com/mudongliang), [@hxhc](https://github.com/hxhc)|
 |Windows与linux对应软件列表|[@mudongliang](https://github.com/mudongliang), [@Anniywell](https://github.com/Anniywell)|
+
+## 作者
+
+[@mudongliang](https://github.com/mudongliang)
+
+## 贡献者
+
+详见 [contributors.md](https://github.com/MintCN/Basics/blob/master/contributors.md)
+
+##LICENSE
+
+Licensed [BY-NC-SA Creative Commons](http://creativecommons.org/licenses/by-nc-sa/4.0/).
