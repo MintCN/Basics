@@ -693,6 +693,38 @@ skype来自于 Ubuntu partner库。
 
 ## 图像浏览
 
+### Eye of GNOME(EOG)
+
+**介绍**：Gnome桌面中默认的图片查看器
+
+**下载位置**：
+
+[官方网站](https://wiki.gnome.org/Apps/EyeOfGnome)
+
+**安装方法**：
+
+    sudo apt-get install eog
+
+**卸载方法**：
+
+    sudo apt-get purge eog
+
+### gThumb
+
+**介绍**：Gnome桌面中的图片查看器及浏览器
+
+**下载位置**：
+
+[官方网站](https://wiki.gnome.org/Apps/gthumb)
+
+**安装方法**：
+
+    sudo apt-get install gthumb
+
+**卸载方法**：
+
+    sudo apt-get purge gthumb
+
 # 游戏娱乐
 
 ## 游戏平台
