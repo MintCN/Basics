@@ -762,6 +762,54 @@ skype来自于 Ubuntu partner库。
 
     sudo apt-get purge gnome-2048
 
+### Gnomine
+
+**介绍**：扫雷
+
+**下载位置**：
+
+[官方网站](https://wiki.gnome.org/Apps/Mines)
+
+**安装方法**：
+
+    sudo apt-get install gnomine
+
+**卸载方法**：
+
+    sudo apt-get purge gnomine
+
+### Sudoku
+
+**介绍**：数独
+
+**下载位置**：
+
+[官方网站](https://wiki.gnome.org/Apps/Sudoku)
+
+**安装方法**：
+
+    sudo apt-get install gnome-sudoku
+
+**卸载方法**：
+
+    sudo apt-get purge gnome-sudoku
+
+### Quadrapassel
+
+**介绍**：俄罗斯方块，原名为Gnometris
+
+**下载位置**：
+
+[官方网站](https://wiki.gnome.org/Apps/Quadrapassel)
+
+**安装方法**：
+
+    sudo apt-get install quadrapassel
+
+**卸载方法**：
+
+    sudo apt-get purge quadrapassel
+
 # 文件管理
 
 ## 文件管理
