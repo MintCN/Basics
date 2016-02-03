@@ -728,11 +728,39 @@ skype来自于 Ubuntu partner库。
 
 ## 游戏平台
 
-## 小游戏
+### steam
+
+**介绍**：目前全球最大的综合性数字发行平台
+
+**下载位置**：
+
+[官方网站](http://store.steampowered.com/)
+
+**安装方法**：
+
+    sudo apt-get install steam
+
+**卸载方法**：
+
+    sudo apt-get purge steam
+
+## Gnome自带小游戏
 
 ### gnome-2048
 
-gnome 2048 小游戏
+**介绍**：2048小游戏
+
+**下载位置**：
+
+[官方网站](https://wiki.gnome.org/Apps/2048)
+
+**安装方法**：
+
+    sudo apt-get install gnome-2048
+
+**卸载方法**：
+
+    sudo apt-get purge gnome-2048
 
 # 文件管理
 
