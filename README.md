@@ -15,7 +15,8 @@
 
 ## 贡献者
 
-详见 [contributors.md](https://github.com/MintCN/Basics/blob/master/contributors.md)
+详见 [contributors.md](https://github.com/MintCN/Basics/blob/master/contributors.md)。
+另外，在贡献内容之前，请参见文件 [CONTRIBUTING.md](https://github.com/MintCN/Basics/blob/master/CONTRIBUTING.md)
 
 ##LICENSE
 
