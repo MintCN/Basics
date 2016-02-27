@@ -243,6 +243,15 @@
 
 	暂缺。。。
 
+###WeChat
+
+**介绍**：
+
+**安装方法**:
+
+1. 用 Chrome 浏览器 打开 [Webchat](https://chrome.google.com/webstore/detail/wechat/ckhliaadcjmdjbhdlkpjkffidcifglba?utm_source=chrome-app-launcher-info-dialog) 应用；
+2. 添加到 Chrome 之后，你就可以找到这个 Webchat 应用了或者在 Chrome 浏览器中输入 "chrome://apps/"，找到对应的应用；
+
 ### Skype
 
 **介绍**：最清晰的免费网络电话，提供文字、声音和视频聊天
