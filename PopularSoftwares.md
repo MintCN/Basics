@@ -4,7 +4,7 @@
 
 ## 网络浏览器
 
-### Chrome (Updated)
+### Chrome
 
 #### 介绍
 
@@ -47,7 +47,7 @@ sudo rm -rf /etc/apt/sources.list.d/google.list'
 无
 
 
-### Firefox (Updated)
+### Firefox
 
 #### 介绍
 
@@ -84,7 +84,7 @@ sudo apt-get update
 ```
 
 
-### Chromium (Updated)
+### Chromium
 
 #### 介绍
 
@@ -121,7 +121,7 @@ sudo apt-get update
 ```
 
 
-### Opera (Updated)
+### Opera
 
 #### 介绍
 
@@ -162,7 +162,7 @@ sudo apt-get update
 ```
 
 
-### Maxthon (Updated)
+### Maxthon
 
 #### 介绍
 
@@ -187,7 +187,7 @@ sudo dpkg -r maxthon-browser-stable
 
 ## 邮件客户端
 
-### Thunderbird (Updated)
+### Thunderbird
 
 #### 介绍
 
@@ -221,7 +221,7 @@ sudo apt-get update
 ```
 
 
-### Evolution (Updated)
+### Evolution
 
 #### 介绍
 
@@ -240,7 +240,7 @@ sudo apt-get update
     sudo apt-get purge evolution
 
 
-### Mutt (Updated)
+### Mutt
 
 #### 介绍
 
@@ -261,7 +261,7 @@ sudo apt-get update
 
 ## 即时聊天
 
-### QQ (Updated)
+### QQ
 
 #### 介绍
 
@@ -272,7 +272,7 @@ sudo apt-get update
 [Wine QQ](http://phpcj.org/wineqq/)
 
 
-### WeChat (Updated)
+### WeChat
 
 #### 介绍
 
@@ -284,7 +284,7 @@ sudo apt-get update
 2. 添加到 Chrome 之后，你就可以找到这个 Webchat 应用了或者在 Chrome 浏览器中输入 "chrome://apps/"，找到对应的应用；
 
 
-### Skype Beta (Updated)
+### Skype Beta
 
 #### 介绍
 
@@ -307,7 +307,7 @@ sudo apt-get update
 目前只支持 64 位版本的 `deb` 和 `rpm` 安装包。
 
 
-### Skype WebPage (Updated)
+### Skype WebPage
 
 #### 介绍
 
@@ -318,7 +318,7 @@ sudo apt-get update
 使用 Skype Beta 的[网页版本](https://web.skype.com)
 
 
-### Empathy (Updated)
+### Empathy
 
 #### 介绍
 
@@ -343,7 +343,7 @@ sudo apt-get purge empathy
 ```
 
 
-### Pidgin (Updated)
+### Pidgin
 
 #### 介绍
 
@@ -362,7 +362,7 @@ sudo apt-get purge empathy
     sudo apt-get purge pidgin
 
 
-### HexChat (Updated)
+### HexChat
 
 #### 介绍
 
@@ -389,7 +389,7 @@ sudo apt-get purge hexchat
 
 ### ~~XwareDesktop~~
 
-### FlareGet (Updated)
+### FlareGet
 
 #### 介绍
 
@@ -408,7 +408,7 @@ sudo apt-get purge hexchat
     sudo dpkg -r flareget
 
 
-### UGet (Updated)
+### UGet
 
 #### 介绍
 
@@ -427,7 +427,7 @@ sudo apt-get purge hexchat
     sudo apt-get purge uget
 
 
-### Wget (Updated)
+### Wget
 
 #### 介绍
 
@@ -446,7 +446,7 @@ sudo apt-get purge hexchat
     sudo apt-get purge wget
 
 
-### Transmission (Updated)
+### Transmission
 
 #### 介绍
 
@@ -465,7 +465,7 @@ sudo apt-get purge hexchat
     sudo apt-get purge transmission
 
 
-### Aria2 (Updated)
+### Aria2
 
 #### 介绍
 
@@ -484,7 +484,7 @@ sudo apt-get purge hexchat
     sudo apt-get purge aria2
 
 
-### Filezilla (Updated)
+### Filezilla
 
 #### 介绍
 
@@ -507,7 +507,7 @@ sudo apt-get purge hexchat
 
 ### ~~金山快盘~~
 
-### bcloud (Updated)
+### bcloud
 
 #### 介绍
 
@@ -521,11 +521,11 @@ sudo apt-get purge hexchat
 #### 安装方法
 
 ```
-    git clone https://github.com/LiuLang/bcloud-packages
-    cd bcloud-packages/
-    sudo gdebi bcloud_XXX_all.deb
-    cd ..
-    rm -rf bcloud-packages
+git clone https://github.com/LiuLang/bcloud-packages
+cd bcloud-packages/
+sudo gdebi bcloud_XXX_all.deb
+cd ..
+rm -rf bcloud-packages
 ```
  
 #### 卸载方法
@@ -533,28 +533,30 @@ sudo apt-get purge hexchat
     sudo dpkg -r bcloud
 
 
-##网络支付
+## 网络支付
 
-### 支付宝 (Updated)
+### 支付宝
 
 #### 介绍
 
 全球领先的独立第三方支付平台
 
-### 下载位置
+#### 下载位置
 
 - 首先进入[支付宝](https://www.alipay.com/)首页；
 - 点击登录按钮之后，下载支付宝控件；
 
-### 安装方法
+#### 安装方法
 
-    $ tar -xvf aliedit.tar.gz
-    aliedit.sh
+```
+$ tar -xvf aliedit.tar.gz
+aliedit.sh
 
-    $ ./aliedit.sh
-    Restart   firefox   to complete your changes
-    Successfully installed Alipay Security Control
-    Press any key to quit...
+$ ./aliedit.sh
+Restart   firefox   to complete your changes
+Successfully installed Alipay Security Control
+Press any key to quit...
+```
 
 #### 卸载方法
 
@@ -564,77 +566,84 @@ sudo apt-get purge hexchat
 
 ### kwplayer
 
-**介绍**：酷我音乐盒的linux客户端
+#### 介绍
 
-**下载位置**：
+酷我音乐盒的 Linux 客户端
+
+#### 下载位置
 
 [kwplayer源码](https://github.com/LiuLang/kwplayer)  
 [kwplayer安装包](https://github.com/LiuLang/kwplayer-packages)
 
-**安装方法**：
+#### 安装方法
 
-    git clone https://github.com/LiuLang/kwplayer-packages
-    cd kwplayer-packages/
-    sudo gdebi kwplayer_3.8.2-1_all.deb
-    cd ..
-    rm -rf kwplayer-packages
+```
+git clone https://github.com/LiuLang/kwplayer-packages
+cd kwplayer-packages/
+sudo gdebi kwplayer_XXX_all.deb
+cd ..
+rm -rf kwplayer-packages
+```
 
-**卸载方法**：
+#### 卸载方法
 
     sudo dpkg -r kwplayer
 
+
 ### FeelUOwn
 
-**介绍**：网易云音乐的linux客户端
+#### 介绍
 
-**下载位置**：
+网易云音乐的linux客户端
+
+#### 下载位置
 
 [FeelUOwn源码](https://github.com/cosven/FeelUOwn)
 
-**安装方法**：
+#### 安装方法
 
-    git clone https://github.com/cosven/FeelUOwn.git
-    cd FeelUOwn
-    ./install.sh
+[安装方法](https://github.com/cosven/FeelUOwn#安装方法)
 
-**卸载方法**：
-
-    # 删除下载的源码即可
-    rm -rf FeelUOwn
 
 ### Banshee
 
-**介绍**：高度自定义的音乐播放器
+#### 介绍
 
-**下载位置**：
+高度自定义的音乐播放器
+
+#### 下载位置
 
 [官方网站](http://banshee.fm/)
 
 [安装包下载](http://banshee.fm/download/)
 
-**安装方法**：
+#### 安装方法
 
     sudo apt-get install banshee
 
-**卸载方法**：
+#### 卸载方法
 
     sudo apt-get purge banshee
 
+
 ### Rhythmbox
 
-**介绍**：Gnome桌面中默认带的音乐播放器，提供音乐管理与播放的强大播放器
+#### 介绍
 
-**下载位置**：
+Gnome桌面中默认带的音乐播放器，提供音乐管理与播放的强大播放器
+
+#### 下载位置
 
 [官方网站](https://wiki.gnome.org/Apps/Rhythmbox)
 
-**安装方法**：
+#### 安装方法
 
     sudo apt-get install rhythmbox
 
-**卸载方法**：
+#### 卸载方法
 
     sudo apt-get purge rhythmbox
+
 
 ## 视频播放
 
