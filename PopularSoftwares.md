@@ -269,7 +269,14 @@
     sudo dpkg -r skypeforlinux
 
 **备注**：
-大家也可以使用 Skype Beta 的[网页版本](https://web.skype.com)
+目前只支持 64 位版本的 deb 和 rpm 包。
+
+### Skype WebPage
+**介绍**：最清晰的免费网络电话，提供文字、声音和视频聊天
+
+**安装方法**：
+
+使用 Skype Beta 的[网页版本](https://web.skype.com)
 
 ### Empathy
 
