@@ -5,15 +5,15 @@
 
 - 网络应用
     - 网络浏览器
-        - Chrome
-        - Firefox
-        - Chromium
-        - Opera
-        - Maxthon
+        - [Chrome](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#chrome)
+        - [Firefox](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#firefox)
+        - [Chromium](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#chromium)
+        - [Opera](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#opera)
+        - [Maxthon](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#maxthon)
     - 邮件客户端
-        - Thunderbird
-        - Evolution
-        - Mutt
+        - [Thunderbird](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#thunderbird)
+        - [Evolution](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#evolution)
+        - [Mutt](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#mutt)
     - 即时聊天
         - QQ
         - WeChat
