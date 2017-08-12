@@ -8,7 +8,7 @@
 
 #### 介绍
 
-可能是世界上最好的浏览器
+Chrome 浏览器是一款专为现代互联网开发的网络浏览器，高速、简约而且安全。
 
 #### 下载位置
 
@@ -16,17 +16,36 @@
 
 #### 安装方法
 
-    wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-    sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
-    sudo apt-get update
-    sudo apt-get install google-chrome-stable
+```
+#1 install through deb package
+sudo gdebi google-chrome-stable_current_amd64.deb
+
+#2 install through software repo
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+sudo apt-get update
+sudo apt-get install google-chrome-stable
+
+sudo apt-get install google-chrome-beta
+
+sudo apt-get install google-chrome-unstable
+```
 
 #### 卸载方法
 
-    sudo apt-get purge google-chrome-stable
-    sudo rm -rf /etc/apt/sources.list.d/google.list'
+```
+sudo apt-get purge google-chrome-stable
+
+sudo apt-get purge google-chrome-beta
+
+sudo apt-get purge google-chrome-unstable
+sudo rm -rf /etc/apt/sources.list.d/google.list'
+```
 
 #### 备注
+
+无
+
 
 ### Firefox
 
@@ -77,34 +96,43 @@
 
     sudo apt-get purge iceweasel
 
-### Chromium
 
-**介绍**：Chrome浏览器的开源版本
+### Chromium (Updated)
 
-**下载位置**：
+#### 介绍
+
+Google Chrome浏览器的开源版本
+
+#### 下载位置
 
 [Download](http://www.chromium.org/getting-involved/download-chromium)
 
 [PPA chromium-daily](https://launchpad.net/~chromium-daily/+archive/ubuntu/stable)
 
-**安装方法** ：
+#### 安装方法
 
-    # 1. Chromium
-    sudo apt-get install chromium
+```
+# 1. Chromium
+sudo apt-get install chromium
 
-    # 2. Chromium PPA
-    sudo add-apt-repository  ppa:chromium-daily/stable
-    sudo apt-get update
-    sudo apt-get install chromium-browser
+# 2. Chromium PPA for Ubuntu/LinuxMint
+sudo add-apt-repository  ppa:chromium-daily/stable
+sudo apt-get update
+sudo apt-get install chromium-browser
+```
 
-**卸载方法**：
+#### 卸载方法
 
-    # 1. Chromium
-    sudo apt-get purge chromium
+```
+# 1. Chromium
+sudo apt-get purge chromium
 
-    # 2. Chromium PPA
-    sudo add-apt-repository -r ppa:chromium-daily/stable
-    sudo apt-get update
+# 2. Chromium PPA
+sudo apt-get purge chromium-browser
+sudo add-apt-repository -r ppa:chromium-daily/stable
+sudo apt-get update
+```
+
 
 ### Maxthon
 
@@ -256,31 +284,40 @@
 1. 用 Chrome 浏览器 打开 [Webchat](https://chrome.google.com/webstore/detail/wechat/ckhliaadcjmdjbhdlkpjkffidcifglba?utm_source=chrome-app-launcher-info-dialog) 应用；
 2. 添加到 Chrome 之后，你就可以找到这个 Webchat 应用了或者在 Chrome 浏览器中输入 "chrome://apps/"，找到对应的应用；
 
-### Skype Beta
 
-**介绍**：最清晰的免费网络电话，提供文字、声音和视频聊天
+### Skype Beta (Updated)
 
-**下载位置**：
+#### 介绍
+
+最清晰的免费网络电话，提供文字、声音和视频聊天
+
+#### 下载位置
 
 [Download](https://www.skype.com/en/download-skype/skype-for-linux/)
 
-**安装方法**：
+#### 安装方法
 
     sudo gdebi skypeforlinux-64.deb
 
-**卸载方法**：
+#### 卸载方法
 
     sudo dpkg -r skypeforlinux
 
-**备注**：
-目前只支持 64 位版本的 deb 和 rpm 包。
+#### 备注
 
-### Skype WebPage
-**介绍**：最清晰的免费网络电话，提供文字、声音和视频聊天
+目前只支持 64 位版本的 `deb` 和 `rpm` 安装包。
 
-**安装方法**：
+
+### Skype WebPage (Updated)
+
+#### 介绍
+
+最清晰的免费网络电话，提供文字、声音和视频聊天
+
+#### 安装方法
 
 使用 Skype Beta 的[网页版本](https://web.skype.com)
+
 
 ### Empathy
 
