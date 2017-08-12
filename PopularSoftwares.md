@@ -649,193 +649,229 @@ Gnome桌面中默认带的音乐播放器，提供音乐管理与播放的强大
 
 ### SMPlayer
 
-**介绍**：一个基于mplayer2的视频播放器，可能是Linux下最方便的视频播放器
+#### 介绍
 
-**下载位置**：
+一个基于mplayer2的视频播放器，可能是Linux下最方便的视频播放器
+
+#### 下载位置
 
 [Download](http://smplayer.sourceforge.net/)
 
-**安装方法**：
+#### 安装方法
 
     sudo apt-get install smplayer
 
-**卸载方法**：
+#### 卸载方法
 
     sudo apt-get purge smplayer
 
+
 ### VLC
 
-**介绍**：全平台的自由多媒体解决方案
+#### 介绍
 
-**官方网站**：
+全平台的自由多媒体解决方案
+
+#### 官方网站
 
 [Official website](http://www.videolan.org/)
 
-**安装方法**：
+#### 安装方法
 
     sudo apt-get install vlc
 
-**卸载方法**：
+### 卸载方法
 
     sudo apt-get purge vlc
 
+
 ### mpv
 
-**介绍**：专注与视频播放质量和体验。GUI？我们不需要，配置文件更高效。
+#### 介绍
 
-**官方网站**：
+专注与视频播放质量和体验。GUI？我们不需要，配置文件更高效。
+
+#### 官方网站
 
 [Official website](https://mpv.io/)
 [GitHub](https://github.com/mpv-player/mpv)
 
-**安装方法**：
+#### 安装方法
 
     sudo apt-get install mpv
 
-**卸载方法**：
+#### 卸载方法
 
     sudo apt-get purge mpv
 
+
 ### KODI(原XBMC)
 
-**介绍**：全平台的媒体库解决方案，插件丰富是它的最大特点
+#### 介绍
 
-**下载位置**：
+全平台的媒体库解决方案，插件丰富是它的最大特点
+
+#### 下载位置
 
 [Download](http://kodi.tv/download/)  
 
-**安装方法**：
+#### 安装方法
 
-    sudo add-apt-repository ppa:team-xbmc/ppa
-    sudo apt-get update
-    sudo apt-get install kodi
+```
+sudo add-apt-repository ppa:team-xbmc/ppa
+sudo apt-get update
+sudo apt-get install kodi
+```
 
-**卸载方法**：
+#### 卸载方法**：
 
     sudo apt-get purge kodi
     
-**中文插件**：
-    [xbmc-addons-chinese](https://github.com/taxigps/xbmc-addons-chinese)
+#### 中文插件
+
+[xbmc-addons-chinese](https://github.com/taxigps/xbmc-addons-chinese)
+
 
 ## 图像浏览
 
 ### Eye of GNOME(EOG)
 
-**介绍**：Gnome桌面中默认的图片查看器
+#### 介绍
 
-**下载位置**：
+Gnome桌面中默认的图片查看器
+
+#### 下载位置**：
 
 [官方网站](https://wiki.gnome.org/Apps/EyeOfGnome)
 
-**安装方法**：
+#### 安装方法
 
     sudo apt-get install eog
 
-**卸载方法**：
+#### 卸载方法
 
     sudo apt-get purge eog
 
+
 ### gThumb
 
-**介绍**：Gnome桌面中的图片查看器及浏览器
+#### 介绍
 
-**下载位置**：
+Gnome桌面中的图片查看器及浏览器
+
+#### 下载位置
 
 [官方网站](https://wiki.gnome.org/Apps/gthumb)
 
-**安装方法**：
+#### 安装方法
 
     sudo apt-get install gthumb
 
-**卸载方法**：
+#### 卸载方法
 
     sudo apt-get purge gthumb
+
 
 # 游戏娱乐
 
 ## 游戏平台
 
-### steam
+### Steam
 
-**介绍**：目前全球最大的综合性数字发行平台
+#### 介绍
 
-**下载位置**：
+目前全球最大的综合性数字发行平台
+
+#### 下载位置
 
 [官方网站](http://store.steampowered.com/)
 
-**安装方法**：
+#### 安装方法
 
     sudo apt-get install steam
 
-**卸载方法**：
+#### 卸载方法
 
     sudo apt-get purge steam
+
 
 ## Gnome自带小游戏
 
 ### gnome-2048
 
-**介绍**：2048小游戏
+#### 介绍
 
-**下载位置**：
+2048小游戏
+
+#### 下载位置
 
 [官方网站](https://wiki.gnome.org/Apps/2048)
 
-**安装方法**：
+#### 安装方法
 
     sudo apt-get install gnome-2048
 
-**卸载方法**：
+#### 卸载方法
 
     sudo apt-get purge gnome-2048
 
+
 ### Gnomine
 
-**介绍**：扫雷
+#### 介绍
 
-**下载位置**：
+扫雷
+
+#### 下载位置
 
 [官方网站](https://wiki.gnome.org/Apps/Mines)
 
-**安装方法**：
+#### 安装方法
 
     sudo apt-get install gnomine
 
-**卸载方法**：
+#### 卸载方法
 
     sudo apt-get purge gnomine
 
+
 ### Sudoku
 
-**介绍**：数独
+#### 介绍
 
-**下载位置**：
+数独
+
+#### 下载位置
 
 [官方网站](https://wiki.gnome.org/Apps/Sudoku)
 
-**安装方法**：
+#### 安装方法
 
     sudo apt-get install gnome-sudoku
 
-**卸载方法**：
+#### 卸载方法
 
     sudo apt-get purge gnome-sudoku
 
+
 ### Quadrapassel
 
-**介绍**：俄罗斯方块，原名为Gnometris
+#### 介绍
 
-**下载位置**：
+俄罗斯方块，原名为Gnometris
+
+#### 下载位置
 
 [官方网站](https://wiki.gnome.org/Apps/Quadrapassel)
 
-**安装方法**：
+#### 安装方法
 
     sudo apt-get install quadrapassel
 
-**卸载方法**：
+#### 卸载方法
 
     sudo apt-get purge quadrapassel
+
 
 # 文件管理
 
@@ -843,24 +879,45 @@ Gnome桌面中默认带的音乐播放器，提供音乐管理与播放的强大
 
 ## 压缩打包
 
+### fileroller
+
+### unzip/zip
+
 # 办公应用
 
 ## 输入法
 
-### fcitx + (sunpinyin, googlepinyin, sogoupinyin)
+### ibus + sunpinyin
+
+### fcitx + sunpinyin
+### fcitx + googlepinyin
+### fcitx + sogoupinyin
 
 ## 文档阅读
 
+### Evince
+
+### Okular
+
 ## 办公套件
+
+### Libre Office
+
+### WPS Office
 
 ## 笔记记事
 
 ### Google Keep
+
 记事和清单
 
 ### WizNote
 
 为知笔记 [linux版源代码](https://github.com/WizTeam/WizQTClient)
+
+### NixNote
+
+[Evernote 开源版本](https://sourceforge.net/projects/nevernote/)
 
 # 教育科学
 
@@ -868,9 +925,15 @@ Gnome桌面中默认带的音乐播放器，提供音乐管理与播放的强大
 
 ## 科学软件
 
+### Mendeley
+
 # 虚拟化
 
 ## 虚拟机
+
+### VMware Play/Workstation
+
+### VirtualBox
 
 # 监视和控制
 
@@ -886,56 +949,63 @@ Gnome桌面中默认带的音乐播放器，提供音乐管理与播放的强大
 
 ## 终端模拟器
 
-linux 的终端就是控制台，是用户与内核交互的平台，通过输入指令来控制内核完成任务操作
-
 ### Gnome Terminal
  
-**介绍**：Gnome Terminal 是 Gnome 桌面环境中的终端模拟软件
+#### 介绍
 
-**官方网站**：
+Gnome Terminal 是 Gnome 桌面环境中的终端模拟软件
+
+#### 官方网站
 
 [Official Website](https://help.gnome.org/users/gnome-terminal/stable/index.html.en)
 [GitHub](https://github.com/GNOME/gnome-terminal)
 
-**安装方法**：
+#### 安装方法
 
     sudo apt-get install gnome-terminal
 
-**卸载方法**：
+#### 卸载方法
 
     sudo apt-get purge gnome-terminal
 
+
 ### Terminator
 
-**介绍**：Terminator 是一个程序，它可让用户自由地排布多个 GNOME 终端，而不用通过窗口管理器来实现，比较适合需要同时打开多个终端的用户
+#### 介绍
 
-**官方网站**：
+Terminator 是一个程序，它可让用户自由地排布多个 GNOME 终端，而不用通过窗口管理器来实现，比较适合需要同时打开多个终端的用户
+
+#### 官方网站
 
 [Official Website](http://gnometerminator.blogspot.com/p/introduction.html)
 
-**安装方法**：
+#### 安装方法
 
     sudo apt-get install terminator
 
-**卸载方法**：
+#### 卸载方法
 
     sudo apt-get purge terminator
 
+
 ### tmux
 
-**介绍**：GNU screen 类似的程序，可作为 screen 的替代品使用
+#### 介绍
 
-**官方网站**：
+GNU screen 类似的程序，可作为 screen 的替代品使用
+
+#### 官方网站
 
 [Official Website](http://sourceforge.net/projects/tmux/)
 
-**安装方法**：
+#### 安装方法
 
     sudo apt-get install tmux
 
-**卸载方法**：
+#### 卸载方法
 
     sudo apt-get purge tmux
+
 
 ## Shell
 
@@ -954,3 +1024,5 @@ linux 的终端就是控制台，是用户与内核交互的平台，通过输�
 ### Sublime Text
 
 ## 集成开发环境
+
+### Eclipse
