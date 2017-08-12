@@ -17,10 +17,10 @@ Chrome 浏览器是一款专为现代互联网开发的网络浏览器，高速�
 #### 安装方法
 
 ```
-#1 install through deb package
+# 1. install through deb package
 sudo gdebi google-chrome-stable_current_amd64.deb
 
-#2 install through software repo
+# 2. install through software repo
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
 sudo apt-get update
@@ -47,54 +47,41 @@ sudo rm -rf /etc/apt/sources.list.d/google.list'
 无
 
 
-### Firefox
+### Firefox (Updated)
 
-**介绍**：自由、拓展性强大的浏览器
+#### 介绍
 
-**下载位置**：
+自由、拓展性强大的浏览器
+
+#### 下载位置
 
 [Download](http://www.firefox.com.cn/download/)
 
 [PPA ubuntu-mozilla-daily](https://code.launchpad.net/~ubuntu-mozilla-daily/+archive/ubuntu/ppa)
 
-**安装方法**：
+#### 安装方法
 
-    # 1. Firefox
-    sudo apt-get install firefox firefox-locale-zh-hans
+```
+# 1. Firefox
+sudo apt-get install firefox firefox-locale-zh-hans
 
-    # 2. Firefox PPA
-    sudo add-apt-repository ppa:ubuntu-mozilla-daily/ppa
-    sudo apt-get update
-    sudo apt-get install firefox-trunk
+# 2. Firefox PPA
+sudo add-apt-repository ppa:ubuntu-mozilla-daily/ppa
+sudo apt-get update
+sudo apt-get install firefox-trunk
+```
 
-**卸载方法**：
+#### 卸载方法
 
-    # 1. Firefox
-    sudo apt-get purge firefox firefox-locale-zh-hans
+```
+# 1. Firefox
+sudo apt-get purge firefox firefox-locale-zh-hans
 
-    # 2. Firefox PPA
-    sudo add-apt-repository -r ppa:ubuntu-mozilla-daily/ppa
-    sudo apt-get update
-
-**备注**：
-
-如果你是Debian或Kali，你的系统自带的浏览器不是Firefox，而是Iceweasel。
-
-### Iceweasel
-
-**介绍**：Iceweasel是一个网络浏览器，是Mozilla Firefox浏览器的Debian再发布版
-
-**下载位置**：
-
-[Download](https://packages.debian.org/sid/iceweasel)
-
-**安装方法**：
-
-    sudo apt-get install iceweasel
-
-**卸载方法**：
-
-    sudo apt-get purge iceweasel
+# 2. Firefox PPA
+sudo apt-get purge firefox-trunk
+sudo add-apt-repository -r ppa:ubuntu-mozilla-daily/ppa
+sudo apt-get update
+```
 
 
 ### Chromium (Updated)
