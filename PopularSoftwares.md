@@ -252,37 +252,24 @@
 1. 用 Chrome 浏览器 打开 [Webchat](https://chrome.google.com/webstore/detail/wechat/ckhliaadcjmdjbhdlkpjkffidcifglba?utm_source=chrome-app-launcher-info-dialog) 应用；
 2. 添加到 Chrome 之后，你就可以找到这个 Webchat 应用了或者在 Chrome 浏览器中输入 "chrome://apps/"，找到对应的应用；
 
-### Skype
+### Skype Beta
 
 **介绍**：最清晰的免费网络电话，提供文字、声音和视频聊天
 
 **下载位置**：
 
-[Download CN](http://skype.gmw.cn/)  
-[Download EN](http://www.skype.com/)  
-[Download DEB](http://archive.canonical.com/pool/partner/s/skype/)
+[Download](https://www.skype.com/en/download-skype/skype-for-linux/)
 
 **安装方法**：
 
-    # Ubuntu，LinuxMint
-    sudo apt-get install skype
-
-	# Debian : downloading from Download DEB,save it as skype.deb
-    sudo gdebi skype.deb
+    sudo gdebi skypeforlinux-64.deb
 
 **卸载方法**：
 
-    # Ubuntu,LinuxMint
-    sudo apt-get purge skype
-
-    # Debian
-    sudo dpkg -r skype
+    sudo dpkg -r skypeforlinux
 
 **备注**：
-skype来自于 Ubuntu partner库。  
-对于Ubuntu，这个库是默认安装的，所以可以直接install和purge的;  
-对于LinuxMint，默认使用Ubuntu partner库，所以也是可以直接install和purge的;  
-对于Debian来说，最简单的安装方法就是使用下载的deb包。关于复杂的安装方法，我会在后面进行介绍。
+大家也可以使用 Skype Beta 的[网页版本](https://web.skype.com)
 
 ### Empathy
 
