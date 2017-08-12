@@ -2,7 +2,6 @@
 
 # 目录
 
-
 - 网络应用
     - 网络浏览器
         - [Chrome](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#chrome)
@@ -15,89 +14,88 @@
         - [Evolution](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#evolution)
         - [Mutt](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#mutt)
     - 即时聊天
-        - QQ
-        - WeChat
-        - Skype Beta
-        - Skype WebPage
-        - Empathy
-        - Pidgin
-        - HexChat
+        - [QQ](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#qq)
+        - [WeChat](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#wechat)
+        - [Skype Beta](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#skype-beta)
+        - [Skype WebPage](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#skype-webpage)
+        - [Empathy](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#empathy)
+        - [Pidgin](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#pidgin)
+        - [HexChat](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#hexchat)
     - 文件传输
         - ~~XwareDesktop~~
-        - FlareGet
-        - UGet
-        - Wget
-        - Transmission
-        - Aria2
-        - Filezilla
+        - [FlareGet](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#flareget)
+        - [UGet](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#uget)
+        - [Wget](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#wget)
+        - [Transmission](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#transmission)
+        - [Aria2](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#aria2)
+        - [Filezilla](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#filezilla)
     - 云存储
         - ~~金山快盘~~
-        - bcloud
-        - ownCloud
+        - [bcloud](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#bcloud)
+        - [ownCloud](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#owncloud)
     - 网络支付
-        - 支付宝
+        - [支付宝](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#支付宝)
     - 远程控制
-        - TeamViewer
-        - Remmina
-        - AnyDesk
+        - [TeamViewer]()
+        - [Remmina]()
+        - [AnyDesk]()
 - 图像影音
     - 音乐播放
-        - kwplayer
-        - FeelUOwn
-        - Banshee
-        - Rhythmbox
+        - [kwplayer](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#kwplayer)
+        - [FeelUOwn](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#feeluown)
+        - [Banshee](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#banshee)
+        - [Rhythmbox](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#rhythmbox)
     - 视频播放
-        - SMPlayer
-        - VLC
-        - 卸载方法
-        - mpv
-        - KODI(原XBMC)
+        - [SMPlayer](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#smplayer)
+        - [VLC](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#vlc)
+        - [mpv](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#mpv)
+        - [KODI(原XBMC)](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#kodi原xbmc)
     - 图像浏览
-        - Eye of GNOME(EOG)
-        - gThumb
+        - [Eye of GNOME(EOG)](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#eye-of-gnomeeog)
+        - [gThumb](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#gthumb)
 - 游戏娱乐
     - 游戏平台
-        - Steam
+        - [Steam](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#steam)
     - Gnome自带小游戏
-        - gnome-2048
-        - Gnomine
-        - Sudoku
-        - Quadrapassel
+        - [gnome-2048](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#gnome-2048)
+        - [Gnomine](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#gnomine)
+        - [Sudoku](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#sudoku)
+        - [Quadrapassel](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#quadrapassel)
 - 文件管理
     - 文件管理
-        - Nautilus
+        - [Nautilus]()
     - 压缩打包
-        - fileroller
-        - unzip/zip
+        - [fileroller]()
+        - [unzip/zip]()
 - 办公应用
     - 输入法
-        - ibus + sunpinyin
-        - fcitx + sunpinyin
-        - fcitx + googlepinyin
-        - fcitx + sogoupinyin
+        - [ibus + sunpinyin]()
+        - [fcitx + sunpinyin]()
+        - [fcitx + googlepinyin]()
+        - [fcitx + sogoupinyin]()
     - 文档阅读
-        - Evince
-        - Okular
-        - Foxit Reader
+        - [Evince]()
+        - [Okular]()
+        - [Foxit Reader]()
     - 办公套件
-        - Libre Office
-        - WPS Office
+        - [Libre Office]()
+        - [WPS Office]()
     - 笔记记事
-        - Google Keep
-        - WizNote
-        - NixNote
+        - [Google Keep]()
+        - [WizNote]()
+        - [NixNote]()
 - 教育科学
     - 教育软件
-        - Texmaker
-        - Latexila
-        - Lyx
+        - [Texmaker]()
+        - [Latexila]()
+        - [Lyx]()
     - 科学软件
-        - Mendeley
+        - [Mendeley]()
 - 虚拟化
     - 虚拟机
-        - VMware Play/Workstation
-        - VirtualBox
-        - Boxes
+        - [VMware Play/Workstation]()
+        - [VirtualBox]()
+        - [Boxes]()
 - 监视和控制
     - 硬件查询
     - 系统监视
@@ -105,19 +103,19 @@
     - 远程控制
 - 系统工具
     - 终端模拟器
-        - Gnome Terminal
-        - Terminator
-        - tmux
+        - [Gnome Terminal](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#gnome-terminal)
+        - [Terminator](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#terminator)
+        - [tmux](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#tmux)
     - Shell
 - 系统管理
     - 配置工具
-        - Tweak Tool
+        - [Tweak Tool]()
 - 程序开发
     - 版本控制
     - 本文编辑器
-        - Sublime Text
+        - [Sublime Text]()
     - 集成开发环境
-        - Eclipse
+        - [Eclipse]()
 
 # 网络应用
 
@@ -809,7 +807,7 @@ Gnome桌面中默认带的音乐播放器，提供音乐管理与播放的强大
 
     sudo apt-get install vlc
 
-### 卸载方法
+#### 卸载方法
 
     sudo apt-get purge vlc
 
