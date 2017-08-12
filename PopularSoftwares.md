@@ -121,56 +121,69 @@ sudo apt-get update
 ```
 
 
-### Maxthon
+### Opera (Updated)
 
-**介绍**：功能丰富、界面简洁的浏览器
+#### 介绍
 
-**下载位置**：
+来自挪威的浏览器
 
-[Download](http://www.maxthon.cn/)
-
-**安装方法**：
-
-    sudo gdebi maxthon-browser-stable_1.0.5.3_amd64.deb
-
-**卸载方法**：
-
-    sudo dpkg -r maxthon-browser-stable
-
-### Opera
-
-**介绍**：来自挪威的浏览器
-
-**下载位置**：
+#### 下载位置
 
 [Download](http://www.opera.com/computer/linux)
 
-**安装方法**：
+#### 安装方法
 
-	# 1. Add source in /etc/apt/sources.list
-	sudo add-apt-repository 'deb https://deb.opera.com/opera-stable/ stable non-free'
-    wget -qO- https://deb.opera.com/archive.key | sudo apt-key add -
-    sudo apt-get update
-	sudo apt-get install opera-stable
+```
+# 1. Add source in /etc/apt/sources.list
+sudo add-apt-repository 'deb https://deb.opera.com/opera-stable/ stable non-free'
+wget -qO- https://deb.opera.com/archive.key | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install opera-stable
 
-	# 2. Add source in /etc/apt/sources.list.d/opera.list
-    sudo sh -c 'echo "deb https://deb.opera.com/opera-stable/ stable non-free" >> /etc/apt/sources.list.d/opera.list'
-    wget -qO- https://deb.opera.com/archive.key | sudo apt-key add -
-    sudo apt-get update
-	sudo apt-get install opera-stable
+# 2. Add source in /etc/apt/sources.list.d/opera.list
+sudo sh -c 'echo "deb https://deb.opera.com/opera-stable/ stable non-free" >> /etc/apt/sources.list.d/opera.list'
+wget -qO- https://deb.opera.com/archive.key | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install opera-stable
+```
 
-**卸载方法**：
+#### 卸载方法
 
-    # 1. Add source in /etc/apt/sources.list
-	sudo apt-get purge opera-stable
-	sudo add-apt-repository -r 'deb https://deb.opera.com/opera-stable/ stable non-free'
-    sudo apt-get update
+```
+# 1. Add source in /etc/apt/sources.list
+sudo apt-get purge opera-stable
+sudo add-apt-repository -r 'deb https://deb.opera.com/opera-stable/ stable non-free'
+sudo apt-get update
+
+# 2. Add source in /etc/apt/sources.list.d/opera.list
+sudo apt-get purge opera-stable
+sudo rm -rf /etc/apt/sources.list.d/opera.list
+sudo apt-get update
+```
 
 
-	# 2. Add source in /etc/apt/sources.list.d/opera.list
-	sudo apt-get purge opera-stable
-    sudo rm -rf /etc/apt/sources.list.d/opera.list
-    sudo apt-get update
+### Maxthon (Updated)
+
+#### 介绍
+
+功能丰富、界面简洁的浏览器
+
+#### 下载位置
+
+[Download](http://www.maxthon.cn/)
+
+#### 安装方法
+
+```
+sudo gdebi maxthon-browser-stable_XXX_amd64.deb
+```
+
+#### 卸载方法
+
+```
+sudo dpkg -r maxthon-browser-stable
+```
+
 
 ## 邮件客户端
 
