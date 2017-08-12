@@ -187,99 +187,98 @@ sudo dpkg -r maxthon-browser-stable
 
 ## 邮件客户端
 
-### Thunderbird
+### Thunderbird (Updated)
 
-**介绍** : 专注于电子邮件管理的强大邮件客户端
+#### 介绍
 
-**下载位置**：
+专注于电子邮件管理的强大邮件客户端
+
+#### 下载位置
 
 [Download](https://www.mozilla.org/zh-CN/thunderbird/)
 
-**安装方法**：
+#### 安装方法
 
-    # 1. Thunderbird
-    sudo apt-get install thunderbird
+```
+# 1. Thunderbird
+sudo apt-get install thunderbird
 
-    # 2. Thunderbird PPA
-    sudo add-apt-repository ppa:ubuntu-mozilla-daily/ppa
-    sudo apt-get update
-    sudo apt-get install thunderbird-trunk
+# 2. Thunderbird PPA
+sudo add-apt-repository ppa:ubuntu-mozilla-daily/ppa
+sudo apt-get update
+sudo apt-get install thunderbird-trunk
+```
 
-**卸载方法**：
+#### 卸载方法
 
-    # 1. Thunderbird
-    sudo apt-get purge thunderbird
+```
+# 1. Thunderbird
+sudo apt-get purge thunderbird
 
-    # 2. Thunderbird PPA
-    sudo add-apt-repository -r ppa:ubuntu-mozilla-daily/ppa
-    sudo apt-get update
+# 2. Thunderbird PPA
+sudo add-apt-repository -r ppa:ubuntu-mozilla-daily/ppa
+sudo apt-get update
+```
 
-**备注**：
-如果你是Debian或Kali，你的系统默认的邮件客户端不是Thunderbird，而是Icedove。
 
-### Icedove
+### Evolution (Updated)
 
-**介绍**：Icedove是一个邮件客户端，是Mozilla Thunderbird客户端的Debian再发布版
+#### 介绍
 
-**下载位置**：
+提供邮件收发、日历和通讯录的个人信息解决方案
 
-[Download](https://packages.debian.org/sid/icedove)
-
-**安装方法**：
-
-    sudo apt-get install icedove
-
-**卸载方法**：
-
-    sudo apt-get purge icedove
-
-### Evolution
-
-**介绍**：提供邮件收发、日历和通讯录的个人信息解决方案
-
-**下载位置**：
+#### 下载位置
 
 [Download](https://wiki.gnome.org/Apps/Evolution)
 
-**安装方法**：
+#### 安装方法
 
     sudo apt-get install evolution
 
-**卸载方法**：
+#### 卸载方法
 
     sudo apt-get purge evolution
 
-### Mutt
 
-**介绍**：类Unix系统下基于文本的邮件客户端
+### Mutt (Updated)
 
-**下载位置**：
+#### 介绍
+
+类Unix系统下基于文本的邮件客户端
+
+#### 下载位置
 
 [Download](http://www.mutt.org/)
 
-**安装方法**：
+#### 安装方法
 
     sudo apt-get install mutt
 
-**卸载方法**：
+#### 卸载方法
 
     sudo apt-get install mutt
+
 
 ## 即时聊天
 
-### QQ
+### QQ (Updated)
 
-**介绍**：支持在线聊天、视频电话、点对点断点续传文件的强大聊天软件
+#### 介绍
 
-**安装方法**:
+支持在线聊天、视频电话、点对点断点续传文件的强大聊天软件
 
-	暂缺。。。
+#### 安装方法
 
-### WeChat
+[Wine QQ](http://phpcj.org/wineqq/)
 
-**介绍**：微信，是一个生活方式
 
-**安装方法**:
+### WeChat (Updated)
+
+#### 介绍
+
+微信，是一个生活方式
+
+#### 安装方法
 
 1. 用 Chrome 浏览器 打开 [Webchat](https://chrome.google.com/webstore/detail/wechat/ckhliaadcjmdjbhdlkpjkffidcifglba?utm_source=chrome-app-launcher-info-dialog) 应用；
 2. 添加到 Chrome 之后，你就可以找到这个 Webchat 应用了或者在 Chrome 浏览器中输入 "chrome://apps/"，找到对应的应用；
@@ -319,258 +318,235 @@ sudo dpkg -r maxthon-browser-stable
 使用 Skype Beta 的[网页版本](https://web.skype.com)
 
 
-### Empathy
+### Empathy (Updated)
 
-**介绍**：支持多协议的强大聊天软件
+#### 介绍
 
-**下载位置**：
+支持多协议的强大聊天软件
+
+#### 下载位置
 
 [Download](https://wiki.gnome.org/action/show/Apps/Empathy?action=show&redirect=Empathy)
 
 [Github Empathy](https://github.com/GNOME/empathy)
 
-**安装方法**：
+#### 安装方法
 
-    sudo apt-get install empathy
+```
+sudo apt-get install empathy
+```
 
-**卸载方法**：
+#### 卸载方法
 
-    sudo apt-get purge empathy
+```
+sudo apt-get purge empathy
+```
 
-### Pidgin
 
-**介绍**：跨平台、支持多种协议的聊天软件
+### Pidgin (Updated)
 
-**下载位置**：
+#### 介绍
+
+跨平台、支持多种协议的聊天软件
+
+#### 下载位置
 
 [Download](https://pidgin.im/download/linux/)
 
-**安装方法**：
+#### 安装方法
 
     sudo apt-get install pidgin
 
-**卸载方法**：
+#### 卸载方法
 
     sudo apt-get purge pidgin
 
-### XChat
 
-**介绍** :跨平台的IRC聊天软件
+### HexChat (Updated)
 
-**下载位置** : 
+#### 介绍
 
-[Download](http://xchat.org/download/)
+跨平台的 IRC 聊天软件
 
-**安装方法**：
+#### 下载位置
 
-	sudo apt-get install xchat
+[Download](https://hexchat.github.io/downloads.html)
 
-**卸载方法**：
+#### 安装方法
 
-	sudo apt-get purge xchat
+```
+sudo apt-get install hexchat
+```
 
-### 阿里旺旺
+#### 卸载方法
 
-**介绍**：原为阿里内部使用的聊天软件，网盘在外国，访问速度非常慢
+```
+sudo apt-get purge hexchat
+```
 
-**下载位置**：
-
-[Download](http://ge.tt/8sPpGIA)
-
-**安装方法**：
-
-    sudo gdebi aliwangwang_1.00-00_amd64.deb
-
-**卸载方法**：
-
-    sudo dpkg -r aliwangwang
 
 ## 文件传输
 
-### XwareDesktop
+### ~~XwareDesktop~~
 
-**介绍**：迅雷在Linux上的原生开源方案
+### FlareGet (Updated)
 
-**下载位置**：
+#### 介绍
 
-[Download](https://github.com/Xinkai/XwareDesktop)
+支持多协议，多线程的下载软件
 
-**安装方法**：
-
-    源码编译
-
-### FlareGet
-
-**介绍**：支持多协议，多线程的下载软件
-
-**下载位置**：
+#### 下载位置
 
 [Download](https://flareget.com/download)
 
-**安装方法**：
+#### 安装方法
 
     sudo gdebi flareget_4.3-95_amd64.deb
 
-**卸载方法**：
+#### 卸载方法
 
     sudo dpkg -r flareget
 
-### UGet
 
-**介绍**：轻量级的全能下载管理器
+### UGet (Updated)
 
-**下载位置**：
+#### 介绍
+
+轻量级的全能下载管理器
+
+#### 下载位置
 
 [Download](http://ugetdm.com/downloads)
 
-**安装方法**：
+#### 安装方法
 
-    sudo apt-get install transmission
+    sudo apt-get install uget
 
-**卸载方法**：
+#### 卸载方法
 
-    sudo apt-get purge transmission
+    sudo apt-get purge uget
 
-### Wget
 
-**介绍**：运行在命令行下的多协议下载软件
+### Wget (Updated)
 
-**下载位置**：
+#### 介绍
+
+运行在命令行下的多协议下载软件
+
+#### 下载位置
 
 [Download](http://www.gnu.org/software/wget/)
 
-**安装方法**：
+#### 安装方法
 
     sudo apt-get install wget
 
-**卸载方法**：
+#### 卸载方法
 
     sudo apt-get purge wget
 
-### Transmission
 
-**介绍**：一种BitTorrent客户端，特点是一个跨平台的后端和其上的简洁的用户界面
+### Transmission (Updated)
 
-**下载位置**：
+#### 介绍
+
+一种BitTorrent客户端，特点是一个跨平台的后端和其上的简洁的用户界面
+
+#### 下载位置
 
 [Download](http://www.transmissionbt.com/download/)
 
-**安装方法**：
+#### 安装方法
 
     sudo apt-get install transmission
 
-**卸载方法**：
+#### 卸载方法
 
     sudo apt-get purge transmission
 
-### Aria2
 
-**介绍**：运行在命令行下的轻量级下载软件
+### Aria2 (Updated)
 
-**下载位置**：
+#### 介绍
+
+运行在命令行下的轻量级下载软件
+
+#### 下载位置
 
 [Download](http://sourceforge.net/projects/aria2/files/stable/aria2-1.15.2/)
 
-**安装方法**：
+#### 安装方法
 
     sudo apt-get install aria2
 
-**卸载方法**：
+#### 卸载方法
 
     sudo apt-get purge aria2
 
-### Filezilla
 
-**介绍**：免费、开源的最强FTP客户端软件
+### Filezilla (Updated)
 
-**下载位置**：
+#### 介绍
+
+免费、开源的最强FTP客户端软件
+
+#### 下载位置
 
 [Download](https://filezilla-project.org/)
 
-**安装方法**：
+#### 安装方法
 
     sudo apt-get install filezilla
 
-**卸载方法**：
+#### 卸载方法
 
     sudo apt-get purge filezilla
 
+
 ## 云存储
 
-### 快盘
+### ~~金山快盘~~
 
-**介绍**：金山快盘 Linux 客户端，能够在您的 Linux 电脑和金山云之间进行安全、快速的文件同步
+### bcloud (Updated)
 
-**下载位置**：
+#### 介绍
 
-[快盘主页](http://www.ubuntukylin.com/applications/showimg.php?lang=cn&id=21)  
-[安装包位置](http://archive.ubuntukylin.com:10006/ubuntukylin/pool/main/k/kuaipan4uk/)
+百度网盘的linux桌面客户端
 
-**安装方法**：
-
-    # 1. deb包
-    sudo gdebi kuaipan4uk_2.0.0.3_amd64.deb
-
-    # 2. 添加 UbuntuKylin 软件源
-    
-按照[添加 UbuntuKylin 源的文档](https://github.com/MintCN/Basics/blob/master/AddUbuntukylinMirror.md)中的方法，添加软件源；
-    
-    sudo apt-get update
-    sudo apt-get install kuaipan4uk
-
-**卸载方法**：
-
-    sudo apt-get purge kuaipan4uk
-
-**备注**：
-    Ubuntukylin网站中列出的[软件](www.ubuntukylin.com/applications/)，比如我们经常使用的搜狗输入法，迅雷快盘，在建立软件源的时候都会在 `/etc/apt/sources.list.d` 生成一个自己的list文件，比如说，搜狗输入法创建的文件名字叫做 `sogoupinyin.list`，而快盘创建的文件名字叫做 `kuaipan.list` ，但是内容都是一致的。
-    
-    $ cat kuaipan.list
-    deb http://archive.ubuntukylin.com:10006/ubuntukylin trusty main
-    $ cat sogoupinyin.list
-    deb http://archive.ubuntukylin.com:10006/ubuntukylin trusty main
-    
-但是这种情况会出现一个问题，因为两个不同的文件有着相同的软件源，在软件更新的时候，会有警告：
-    
-    sudo apt-get udpate
-    
-    W: Duplicate sources.list entry http://archive.ubuntukylin.com:10006/ubuntukylin/ trusty/main amd64 Packages (/var/lib/apt/lists/archive.ubuntukylin.com:10006_ubuntukylin_dists_trusty_main_binary-amd64_Packages)
-    W: Duplicate sources.list entry http://archive.ubuntukylin.com:10006/ubuntukylin/ trusty/main i386 Packages (/var/lib/apt/lists/archive.ubuntukylin.com:10006_ubuntukylin_dists_trusty_main_binary-i386_Packages)
-    W: You may want to run apt-get update to correct these problems
-
-### bcloud
-
-**介绍**：百度网盘的linux桌面客户端
-
-**下载位置**：
+#### 下载位置
 
 [bcloud源码](https://github.com/LiuLang/bcloud)  
 [bcloud安装包](https://github.com/LiuLang/bcloud-packages)
 
-**安装方法**：
+#### 安装方法
 
+```
     git clone https://github.com/LiuLang/bcloud-packages
     cd bcloud-packages/
-    sudo gdebi bcloud_3.8.2-1_all.deb
+    sudo gdebi bcloud_XXX_all.deb
     cd ..
     rm -rf bcloud-packages
-    
-**卸载方法**：
+```
+ 
+#### 卸载方法
 
     sudo dpkg -r bcloud
 
+
 ##网络支付
 
-### 支付宝
+### 支付宝 (Updated)
 
-**介绍**：全球领先的独立第三方支付平台
+#### 介绍
 
-**下载位置**：
+全球领先的独立第三方支付平台
+
+### 下载位置
 
 - 首先进入[支付宝](https://www.alipay.com/)首页；
 - 点击登录按钮之后，下载支付宝控件；
 
-**安装方法**：
+### 安装方法
 
     $ tar -xvf aliedit.tar.gz
     aliedit.sh
@@ -580,9 +556,7 @@ sudo dpkg -r maxthon-browser-stable
     Successfully installed Alipay Security Control
     Press any key to quit...
 
-**卸载方法**：
-
-    无
+#### 卸载方法
 
 # 图像影音
 
