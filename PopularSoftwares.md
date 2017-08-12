@@ -6,23 +6,27 @@
 
 ### Chrome (Updated)
 
-**介绍** ：可能是世界上最好的浏览器
+#### 介绍
 
-**下载位置** ：
+可能是世界上最好的浏览器
+
+#### 下载位置
 
 [Download](http://www.google.cn/intl/zh-CN/chrome/browser/)
 
-**安装方法** ：
+#### 安装方法
 
     wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
     sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
     sudo apt-get update
     sudo apt-get install google-chrome-stable
 
-**卸载方法** ：
+#### 卸载方法
 
     sudo apt-get purge google-chrome-stable
     sudo rm -rf /etc/apt/sources.list.d/google.list'
+
+#### 备注
 
 ### Firefox
 
