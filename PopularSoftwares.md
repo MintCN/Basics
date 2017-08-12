@@ -1,5 +1,124 @@
 # 常用软件列表
 
+# 目录
+
+
+- 网络应用
+    - 网络浏览器
+        - Chrome
+        - Firefox
+        - Chromium
+        - Opera
+        - Maxthon
+    - 邮件客户端
+        - Thunderbird
+        - Evolution
+        - Mutt
+    - 即时聊天
+        - QQ
+        - WeChat
+        - Skype Beta
+        - Skype WebPage
+        - Empathy
+        - Pidgin
+        - HexChat
+    - 文件传输
+        - ~~XwareDesktop~~
+        - FlareGet
+        - UGet
+        - Wget
+        - Transmission
+        - Aria2
+        - Filezilla
+    - 云存储
+        - ~~金山快盘~~
+        - bcloud
+        - ownCloud
+    - 网络支付
+        - 支付宝
+    - 远程控制
+        - TeamViewer
+        - Remmina
+        - AnyDesk
+- 图像影音
+    - 音乐播放
+        - kwplayer
+        - FeelUOwn
+        - Banshee
+        - Rhythmbox
+    - 视频播放
+        - SMPlayer
+        - VLC
+        - 卸载方法
+        - mpv
+        - KODI(原XBMC)
+    - 图像浏览
+        - Eye of GNOME(EOG)
+        - gThumb
+- 游戏娱乐
+    - 游戏平台
+        - Steam
+    - Gnome自带小游戏
+        - gnome-2048
+        - Gnomine
+        - Sudoku
+        - Quadrapassel
+- 文件管理
+    - 文件管理
+        - Nautilus
+    - 压缩打包
+        - fileroller
+        - unzip/zip
+- 办公应用
+    - 输入法
+        - ibus + sunpinyin
+        - fcitx + sunpinyin
+        - fcitx + googlepinyin
+        - fcitx + sogoupinyin
+    - 文档阅读
+        - Evince
+        - Okular
+        - Foxit Reader
+    - 办公套件
+        - Libre Office
+        - WPS Office
+    - 笔记记事
+        - Google Keep
+        - WizNote
+        - NixNote
+- 教育科学
+    - 教育软件
+        - Texmaker
+        - Latexila
+        - Lyx
+    - 科学软件
+        - Mendeley
+- 虚拟化
+    - 虚拟机
+        - VMware Play/Workstation
+        - VirtualBox
+        - Boxes
+- 监视和控制
+    - 硬件查询
+    - 系统监视
+    - 系统安全
+    - 远程控制
+- 系统工具
+    - 终端模拟器
+        - Gnome Terminal
+        - Terminator
+        - tmux
+    - Shell
+- 系统管理
+    - 配置工具
+        - Tweak Tool
+- 程序开发
+    - 版本控制
+    - 本文编辑器
+        - Sublime Text
+    - 集成开发环境
+        - Eclipse
+
 # 网络应用
 
 ## 网络浏览器
@@ -533,6 +652,8 @@ rm -rf bcloud-packages
     sudo dpkg -r bcloud
 
 
+### ownCloud
+
 ## 网络支付
 
 ### 支付宝
@@ -559,6 +680,14 @@ Press any key to quit...
 ```
 
 #### 卸载方法
+
+## 远程控制
+
+### TeamViewer
+
+### Remmina
+
+### AnyDesk
 
 # 图像影音
 
@@ -723,7 +852,7 @@ sudo apt-get update
 sudo apt-get install kodi
 ```
 
-#### 卸载方法**：
+#### 卸载方法
 
     sudo apt-get purge kodi
     
@@ -740,7 +869,7 @@ sudo apt-get install kodi
 
 Gnome桌面中默认的图片查看器
 
-#### 下载位置**：
+#### 下载位置
 
 [官方网站](https://wiki.gnome.org/Apps/EyeOfGnome)
 
@@ -877,6 +1006,8 @@ Gnome桌面中的图片查看器及浏览器
 
 ## 文件管理
 
+### Nautilus
+
 ## 压缩打包
 
 ### fileroller
@@ -898,6 +1029,8 @@ Gnome桌面中的图片查看器及浏览器
 ### Evince
 
 ### Okular
+
+### Foxit Reader
 
 ## 办公套件
 
@@ -923,6 +1056,12 @@ Gnome桌面中的图片查看器及浏览器
 
 ## 教育软件
 
+### Texmaker
+
+### Latexila
+
+### Lyx
+
 ## 科学软件
 
 ### Mendeley
@@ -934,6 +1073,8 @@ Gnome桌面中的图片查看器及浏览器
 ### VMware Play/Workstation
 
 ### VirtualBox
+
+### Boxes
 
 # 监视和控制
 
