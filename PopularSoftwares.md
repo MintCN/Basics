@@ -37,15 +37,14 @@
         - qBittorrent
     - 云存储
         - ~~金山快盘~~
-        - [bcloud](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#bcloud)
-        - [ownCloud](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#owncloud)
+        - [百度云](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#bcloud)
+        - 坚果云
+        - Dropbox
+        - Google Drive
+        - One Drive(SkyDrive)
+        - ownCloud
     - 网络支付
         - [支付宝](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#支付宝)
-    - 远程控制
-        - TeamViewer
-        - Remmina
-        - AnyDesk
-        - putty	
 - 图像影音
     - 音乐播放
         - [kwplayer](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#kwplayer)
@@ -73,11 +72,11 @@
     - 文件管理
         - Nautilus
     - 压缩打包
-        - fileroller
-        - unzip/zip
+        - Fileroller
+        - Unzip
 - 办公应用
     - 输入法
-        - ibus + sunpinyin
+        - ibus  + sunpinyin
         - fcitx + sunpinyin
         - fcitx + googlepinyin
         - fcitx + sogoupinyin
@@ -107,15 +106,33 @@
         - Boxes
 - 监视和控制
     - 硬件查询
+        - CPU-G
+        - Hardinfo
+        - I-Nex
+        - Psensor
     - 系统监视
-    - 系统安全
+        - System Monitor
+        - 
     - 远程控制
+        - TeamViewer
+        - Chrome Remote Desktop
+        - Remmina
+        - AnyDesk
+        - Putty
+- 系统安全
+    - 密码管理
+        - KeePass2
+        - KeePassX
+    - 杀毒软件
+        - ClamAV
 - 系统工具
     - 终端模拟器
         - [Gnome Terminal](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#gnome-terminal)
         - [Terminator](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#terminator)
         - [tmux](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#tmux)
     - Shell
+    - 启动盘制作工具
+        - UNetbootin
 - 系统管理
     - 配置工具
         - Tweak Tool
