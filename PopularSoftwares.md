@@ -26,6 +26,7 @@
         - [Pidgin](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#pidgin)
         - XChat
         - [HexChat](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#hexchat)
+        - [Corebird](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#corebird)
     - 文件传输
         - ~~XwareDesktop~~
         - [FlareGet](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#flareget)
@@ -41,7 +42,7 @@
         - 坚果云
         - Dropbox
         - Google Drive
-        - One Drive(SkyDrive)
+        - One Drive
         - ownCloud
     - 网络支付
         - [支付宝](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#支付宝)
@@ -49,7 +50,7 @@
     - 音乐播放
         - [kwplayer](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#kwplayer)
         - [FeelUOwn](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#feeluown)
-        - [网易云音乐 Linux客户端]
+        - 网易云音乐 Linux客户端
         - [Banshee](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#banshee)
         - [Rhythmbox](https://github.com/MintCN/Basics/blob/master/PopularSoftwares.md#rhythmbox)
     - 视频播放
@@ -89,7 +90,6 @@
         - WPS Office
     - 笔记记事
         - Google Keep
-        - WizNote
         - NixNote
 - 教育科学
     - 教育软件
@@ -97,11 +97,12 @@
         - Latexila
         - Lyx
         - TeXstudio
+	- Texlive
     - 科学软件
         - Mendeley
 - 虚拟化
     - 虚拟机
-        - VMware Play/Workstation
+        - VMware Workstation
         - VirtualBox
         - Boxes
 - 监视和控制
@@ -112,7 +113,7 @@
         - Psensor
     - 系统监视
         - System Monitor
-        - 
+	- Htop
     - 远程控制
         - TeamViewer
         - Chrome Remote Desktop
@@ -133,6 +134,7 @@
     - Shell
     - 启动盘制作工具
         - UNetbootin
+	- dd
 - 系统管理
     - 配置工具
         - Tweak Tool
@@ -145,13 +147,14 @@
         - Visual Studio Code
         - gedit
         - Atom
-        - Gvim
+        - Vim
         - Emacs
     - 集成开发环境
         - Eclipse IDE
         - JetBrains IDE
         - Wireshark
         - Code Blocks
+- 其他
 
 # 网络应用
 
@@ -547,6 +550,27 @@ sudo apt-get install hexchat
 sudo apt-get purge hexchat
 ```
 
+### Corebird
+
+#### 介绍
+
+Native Gtk+ Twitter client for the Linux desktop
+
+#### 下载位置
+
+[Download](https://github.com/baedert/corebird/releases)
+
+#### 安装方法
+
+```
+sudo apt-get install corebird
+```
+
+#### 卸载方法
+
+```
+sudo apt-get purge corebird
+```
 
 ## 文件传输
 
